@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+ Se ingresan unmeros (distintos de 0), no se sabe cuantos.
+ Se pide mostrar:   *Cantidad de pares e impares.
+                    *Porcentaje de numeros positivos y negativos
+                    *Numero maximo y numero minimo.
+                    *Maximo numero par
+                    *Cantidad de numeros comprendidos entre 125-236
+*/
+
+int main()
+{
+    int numero;
+    int pares=0;
+    int impares=0;
+    int totalNumeros=0;
+    int positivos=0;
+    int negativos=0;
+    float porcentajep;
+    float porcentajen;
+    int maximo;
+    int minimo;
+    int flag = 0;
+    char rta = 's';
+
+    while (rta != 'n')
+    {
+        printf("\nIngrese un numero: ");
+        scanf("%d", &numero);
+            while (numero==0) //Valido que el numero no sea 0
+            {
+            printf("\nReingrese un numero: ");
+            scanf("%d", &numero);
+            }
+        totalNumeros++;
+
+        if (numero%2==0)
+        {
+            pares++;
+        }
+        else
+        {
+            impares++;
+        }
+
+        if (numero>0)
+        {
+            positivos++;
+        }
+        else
+        {
+            negativos++;
+        }
+
+
+        if(flag==0)
+        {
+            maximo = numero;
+            minimo = numero;
+            flag = 1;
+        }
+        else
+        {
+            if (numero<minimo)
+            {
+                minimo = numero;
+            }
+            if (numero>maximo)
+            {
+                maximo = numero;
+            }
+
+
+    }
+
+
+    printf("Desea continuar? ");
+    rta = getche();
+
+}
+
+    porcentajep=(float)(positivos*100)/totalNumeros;
+    porcentajen= 100-porcentajep; //(negativos*100)/totalnumeros;
+
+
+    printf("\nLos numeros pares son: %d",pares);
+    printf("\nLos numeros impares son: %d",impares);
+    printf("\nEl porcentaje de numeros positivos es: %f \%",porcentajep);
+    printf("\nEl porcentaje de numeros negativos es: %f \%",porcentajen);
+    printf("\nEl maximo es: %d \%",maximo);
+    printf("\nEl minimo es: %d \%",minimo);
+
+
+
+    return 0;
+}
+
