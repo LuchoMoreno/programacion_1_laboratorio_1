@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int pedirNumero();
+
+
+int main()
+{
+    int numero1;
+    int numero2;
+    numero1 = pedirNumero();
+    numero2 = pedirNumero();
+    printf("El numero ingresado es: %d", numero1);
+    printf("\nEl numero ingresado es: %d", numero2);
+    return 0;
+}
+
+int pedirNumero()
+{
+    int numero;
+    printf ("Ingrese un numero: ");
+    scanf("%d", &numero);
+    return numero;
+}

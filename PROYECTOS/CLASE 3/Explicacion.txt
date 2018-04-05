@@ -1,0 +1,23 @@
+Mantenibilidad: Que se pueda realizar cualquier modificacion sobre la funcion.
+Facilidad para depurar: Es la facilidad para corregir errores. Debido a que solamente
+se va a la funcion la cual està generando errores.
+
+La funcion debe resolver algo en particular. Algo sencillo. 
+
+Pasaje de parametros por valor: Cuando pasamos tipos de datos, se modifica la copia y
+no el original
+
+Pasaje de parametos por referencia: En realidad lo que se pasa es la direccion de memoria 
+de la variable. 
+
+
+4 COMBINACIONES POSIBLES:
+		Retorna			Recibe
+Prototipo 1	X			X		(mostrar)
+Prototipo 2	X			V
+Prototipo 3	V			V
+Prototipo 4	V			X
+
+Se puede plantear de 4 formas distintas.
+1- Funcion nula.
+3- Funcion ideal.

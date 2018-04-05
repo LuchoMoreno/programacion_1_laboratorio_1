@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int pedirEntero(char[]);
+
+
+int main()
+{
+    int edad;
+    int legajo;
+    int nota;
+
+
+    edad = pedirEntero("Ingrese edad: ");
+
+
+    legajo = pedirEntero("Ingrese legajo: ");
+
+    nota = pedirEntero ("Ingrese nota: ");
+
+    printf("\nLa edad es: %d y el legajo es: %d y su nota es: %d", edad, legajo, nota);
+
+    return 0;
+}
+
+int pedirEntero(char mensaje[])
+{
+    int numero;
+    printf("%s", mensaje);
+    scanf("%d", &numero);
+    return numero;
+}
