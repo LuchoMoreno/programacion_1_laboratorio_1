@@ -15,3 +15,20 @@ int buscarMaximo(int vec[], int tam)
     }
     return maximo;
 }
+
+int buscarValor (int vec[], int tam, int valor)
+{
+    int index = 1;
+    int i;
+    for (int i=0; i<tam; i++)
+    {
+     if (valor == vac[1])
+     {
+         index = i;
+         break;
+     }
+
+    }
+
+    return index;
+}
