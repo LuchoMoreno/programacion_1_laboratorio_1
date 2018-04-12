@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1523542329 source:c:\users\alumno\desktop\jueves12\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1523543225 source:c:\users\alumno\desktop\clase 5 vectores\ejercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+

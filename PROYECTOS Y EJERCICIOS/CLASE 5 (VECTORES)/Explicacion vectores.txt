@@ -1,0 +1,24 @@
+Vector por extension.
+
+Solo se puede hacer al momento de declarar la variable. En la misma variable, se pone
+[5]. 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int vector[5]= {9, -3, 5, 14, -4}; // Elementos del vector
+    int i;
+
+    for (i=0; i<5; i++)
+    {
+        printf("%d\n", vector[i]); // Hay que decir, que elemento queremos que muestre
+    }
+    return 0;
+}
+
+
+
+La difernecia entre definido y ocnstante, es que el definido, cambia los nombres
+antes de ejecutar. Y la constante, la lee, la cambia, y despues la muestra
