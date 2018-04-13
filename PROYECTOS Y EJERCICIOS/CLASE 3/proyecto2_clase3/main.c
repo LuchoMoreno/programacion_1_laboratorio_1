@@ -36,11 +36,8 @@ int pedirEntero(char mensaje[], int min, int max)
 
 int validarEntero(int dato, int min, int max, char mensaje[])
 {
-        while(dato<min || dato>max)
-    {
-        printf("Error: Reingrese %s", mensaje);
-        scanf("%d", &dato);
-    }
+
+
 
     return dato;
 }

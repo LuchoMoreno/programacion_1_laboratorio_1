@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1523545674 source:c:\users\alumno\desktop\jueves12\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1523546323 source:c:\users\alumno\desktop\jueves12\vectores.c
+	"vectores.h"
+
+1523545092 c:\users\alumno\desktop\jueves12\vectores.h
+
+1523546768 source:c:\users\lucho\desktop\123\vectores.c
+	"vectores.h"
+
+1523545094 c:\users\lucho\desktop\123\vectores.h
+
+1523594028 source:c:\users\lucho\desktop\123\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1523596240 source:c:\users\lucho\desktop\vectores con funciones - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1523596041 c:\users\lucho\desktop\vectores con funciones - copia\vectores.h
+
+1523596290 source:c:\users\lucho\desktop\vectores con funciones - copia\vectores.c
+	"vectores.h"
+
+1523596240 source:c:\users\lucho\desktop\vectores con funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1523596041 c:\users\lucho\desktop\vectores con funciones\vectores.h
+
+1523596325 source:c:\users\lucho\desktop\vectores con funciones\vectores.c
+	"vectores.h"
+
