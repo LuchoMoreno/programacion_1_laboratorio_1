@@ -1,0 +1,5 @@
+Github: Control de versionado. Cada version del archivo va a quedar guardada, 
+por si en algun momento se quiere volver.
+
+git init - Iniciar repositorio (Equivalente a git here)
+git clone - Clonar repositorio existente ( segunda opcion, que usamos ) 

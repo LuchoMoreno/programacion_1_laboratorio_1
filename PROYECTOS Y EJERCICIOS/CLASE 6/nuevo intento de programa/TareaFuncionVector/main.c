@@ -35,7 +35,6 @@ int main()
     gets(apellido);
     apellido[0]=toupper(apellido[0]);
 
-    strcat(nombre, apellido);
 
     printf("Su nombre es: %s", nombre);
     printf("\nSu nombre es: %s", apellido);
