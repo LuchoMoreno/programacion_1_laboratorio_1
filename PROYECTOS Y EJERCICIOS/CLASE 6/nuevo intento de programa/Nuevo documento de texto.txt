@@ -1,0 +1,18 @@
+   /*
+
+    Tarea:
+
+    DECLARAR 3 VARIABLES.
+
+    char nombre[?];
+    char apellido[?];
+    char apellidoYNombre[?];
+
+    ***********
+
+    Ingresar el apellido scarafilo
+    Ingresar el nombre german // tener en cuenta si es compuesto
+
+    Variable apellidoynombre = Escarafilo, German". Primera letra mayuscula, y separado con coma y espacio.
+
+    */

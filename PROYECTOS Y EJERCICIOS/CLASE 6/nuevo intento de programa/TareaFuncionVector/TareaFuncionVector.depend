@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1524102114 source:c:\users\lucho\desktop\nuevo intento de programa\tareafuncionvector\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
