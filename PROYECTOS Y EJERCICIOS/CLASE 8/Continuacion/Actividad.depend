@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1524226179 source:c:\users\alumno\desktop\clase 8\actividad\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1524231550 source:c:\users\alumno\desktop\clase 8\ordenar vectores por nombre\main.c
-	<stdio.h>
-	<stdlib.h>
-

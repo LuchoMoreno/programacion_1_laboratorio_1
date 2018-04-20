@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define T 3
+#define T 2
 
 /*
 Legajo:
